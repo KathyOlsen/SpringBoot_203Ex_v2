@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset=" UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Confirm Employee</title>
+</head>
+<body>
+    <p th:inline="text">The employee's first name is [[${employee.firstName}]].<br>
+    The employee's last name is [[${employee.lastName}]].<br>
+    The employee's social security number is [[${employee.socSecNum}]].
+    The employee's date of birth is [[${employee.dateBirth}]].</p>
+</body>
+</html>
